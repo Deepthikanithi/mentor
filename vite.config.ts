@@ -7,19 +7,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    target: 'esnext',
-    minify: 'esbuild',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'router': ['react-router-dom'],
-        }
-      }
-    }
-  },
-  esbuild: {
-    target: 'esnext'
+    target: 'es2015',
+    minify: 'esbuild'
   },
   server: {
     port: 5173,
