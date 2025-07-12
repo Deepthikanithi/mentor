@@ -1,0 +1,51 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist
+build
+
+# Development logs
+vite-dev-log.txt
+
+# Backup files
+*.backup
+
+# Test files
+coverage
+.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+
+# Lock files (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+bun.lock
+
+# Development scripts
+e2b.startup.sh
+
+# Chariot specific files
+CHARIOT.md
+chariotai-projects-*
